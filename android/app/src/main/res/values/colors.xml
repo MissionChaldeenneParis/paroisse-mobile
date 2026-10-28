@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Charte Mission Chaldéenne — bordeaux principal -->
+    <color name="colorPrimary">#801624</color>
+    <color name="colorPrimaryDark">#801624</color>
+    <color name="colorAccent">#801624</color>
+</resources>

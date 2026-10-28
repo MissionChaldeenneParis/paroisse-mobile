@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover"
+    />
+    <title>Mission Chaldéenne</title>
+    <style>
+      html,
+      body {
+        margin: 0;
+        height: 100%;
+        background: #ffffff;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        color: #801624;
+      }
+      .wrap {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .spinner {
+        width: 42px;
+        height: 42px;
+        border: 4px solid rgba(128, 22, 36, 0.15);
+        border-top-color: #801624;
+        border-radius: 50%;
+        animation: spin 0.9s linear infinite;
+      }
+      @keyframes spin {
+        to {
+          transform: rotate(360deg);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!--
+      Page de base servie par Capacitor. En fonctionnement normal la WebView
+      charge immédiatement server.url (le site distant), donc cet écran n'est
+      qu'un état transitoire au tout premier instant du lancement.
+    -->
+    <div class="wrap">
+      <div class="spinner" role="status" aria-label="Chargement"></div>
+    </div>
+  </body>
+</html>

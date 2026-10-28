@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Mission Chaldéenne</string>
+    <string name="title_activity_main">Mission Chaldéenne</string>
+    <string name="package_name">Yartoutha.app</string>
+    <string name="custom_url_scheme">Yartoutha.app</string>
+</resources>

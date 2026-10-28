@@ -1,0 +1,40 @@
+# Dépendances
+node_modules/
+
+# Logs / divers
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
+.env
+.env.local
+
+# ---------------------------------------------------------------------------
+# Android (généré par `npx cap add android`)
+# On VERSIONNE le dossier android/ (config du projet) mais on ignore ses builds.
+# ---------------------------------------------------------------------------
+android/.gradle/
+android/build/
+android/app/build/
+android/captures/
+android/.idea/
+android/local.properties
+android/app/release/
+*.apk
+*.aab
+*.keystore
+*.jks
+
+# ---------------------------------------------------------------------------
+# iOS (généré par `npx cap add ios`)
+# On VERSIONNE ios/App/ (config Xcode) mais on ignore Pods et builds.
+# ---------------------------------------------------------------------------
+ios/App/Pods/
+ios/App/build/
+ios/App/App/public/
+ios/DerivedData/
+xcuserdata/
+*.xcworkspace/xcuserdata/
+
+# Sortie de génération d'assets (régénérable via capacitor-assets)
+# (les assets finaux sont copiés dans android/ et ios/ par la commande)
