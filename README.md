@@ -1,4 +1,4 @@
-# Mission Chaldéenne — Application mobile
+# Mission Chaldéenne | Application mobile
 
 Application mobile **Android + iOS** qui enveloppe le site en production
 [https://saint-thomas-v2.web.app/](https://saint-thomas-v2.web.app/) à l'aide de
