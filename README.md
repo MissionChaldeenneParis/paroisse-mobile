@@ -5,7 +5,7 @@ Application mobile **Android + iOS** qui enveloppe le site en production
 [Capacitor](https://capacitorjs.com/).
 
 L'app n'embarque **pas** le code du site : elle affiche l'URL distante dans une
-WebView native. Le site continue donc d'évoluer indépendamment — aucune
+WebView native. Le site continue donc d'évoluer indépendamment aucune
 reconstruction de l'app n'est nécessaire quand le site est mis à jour.
 
 > Ce dépôt est **totalement indépendant** du dépôt du site
@@ -59,7 +59,7 @@ npx cap sync
 npm run open:android
 ```
 
-(équivaut à `npx cap open android` — ouvre le projet dans **Android Studio**.)
+(équivaut à `npx cap open android` ouvre le projet dans **Android Studio**.)
 
 Ensuite, dans Android Studio :
 1. Laisser Gradle finir la synchronisation (barre de progression en bas).
